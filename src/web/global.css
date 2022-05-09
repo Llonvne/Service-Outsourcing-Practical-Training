@@ -16,7 +16,11 @@ iframe {
     height: 100%;
 
     /*去除所有边框*/
-    border: medium none
+    border: medium none;
+
+    /*禁止竖向滚动*/
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /*设置全局链接样式*/

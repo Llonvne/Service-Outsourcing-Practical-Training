@@ -1,4 +1,31 @@
-.HeaderDown {
-    height: 170px;
-    width: 100%;
+.body {
+    height: 170px
 }
+
+.HeaderDown * {
+    float: left;
+    /*padding-left: 15px;*/
+    display: block;
+}
+
+.HeaderDown .Gov,.GovEvent,.WeChat {
+    padding-top: 50px;
+    padding-right: 35px;
+}
+
+.HeaderDown .Logo {
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.HeaderDown .WeChat {
+    padding-left: 38px;
+}
+
+.HeaderDown .WeChat span {
+    position: absolute;
+    left: 1025px;
+    top: 90px;
+}
+
+
