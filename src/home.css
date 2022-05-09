@@ -1,0 +1,116 @@
+/*头条CSS*/
+/*头条高度设置*/
+.wrapper .ContentWrapper .Headlines1 {
+    height: 120px;
+    background-color: #ec940a;
+}
+
+/*头条上层高度设置，边框设置*/
+.wrapper .ContentWrapper .Headlines1 .HeadlinesTop {
+    height: 45px;
+    background-color: pink;
+    margin-top: 15px
+}
+
+/*头条上层左边 设置*/
+.wrapper .ContentWrapper .Headlines1 .HeadlinesTop .Left {
+    width: 130px;
+    height: 100%;
+    background-color: palegoldenrod;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*头条上层右边标题设置*/
+.wrapper .ContentWrapper .Headlines1 .HeadlinesTop .Right {
+    width: 840px;
+    height: 100%;
+    background-color: palegreen;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 26px;
+    line-height: 45px;
+}
+
+/*头条下面三连*/
+/*设置下面三连新闻大小*/
+.wrapper .ContentWrapper .Headlines1 .HeadlinesDown {
+    height: 31px;
+    width: 100%;
+    background-color: paleturquoise;
+}
+
+/*设置下面三连新闻字体参数*/
+.wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info {
+    height: 31px;
+    width: 243px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 31px;
+}
+
+/*左边第一个边界*/
+.wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info:first-child {
+    margin-left: 100px;
+}
+
+/*新闻1*/
+.wrapper .ContentWrapper .New1 {
+    height: 370px;
+    background-color: palevioletred;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* 左边图片*/
+.wrapper .ContentWrapper .New1 .New1Left {
+    width: 487px;
+    height: 370px;
+    background-color: papayawhip;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*右边栏*/
+.wrapper .ContentWrapper .New1 .New1Right {
+    width: 487px;
+    height: 370px;
+    background-color: peru;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*右边标题栏*/
+.wrapper .ContentWrapper .New1 .New1Right .New1RightHeadlines a {
+    width: 92px;
+    height: 50px;
+    display: inline-block;
+    background-color: pink;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    border-bottom: solid #37694c 3px;
+}
+
+.wrapper .ContentWrapper .New1 .New1Right .New1RightList .New {
+    height: 34px;
+    background-color: peachpuff;
+}
+
+.wrapper .ContentWrapper .New1 .New1Right .New1RightList .New .Text {
+    height: 100%;
+    width: 80%;
+    background-color: floralwhite;
+    display: inline-block;
+    vertical-align: top;
+}
+.wrapper .ContentWrapper .New1 .New1Right .New1RightList .New .Date {
+    height: 100%;
+    width: 18%;
+    background-color: darkgreen;
+    display: inline-block;
+    vertical-align: top;
+}
