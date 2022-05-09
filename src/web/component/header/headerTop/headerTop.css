@@ -1,6 +1,109 @@
-.HeaderTop {
-    height: 22px;
-    width: 100%;
-    background-color: pink;
+html {
 
+    /*设置 HTML 长度*/
+    height: 38px;
+}
+
+/* 设置整个 Header的属性*/
+.HeaderTop {
+
+    /* 长度 14 px*/
+    height: 14px;
+
+    /* 宽度：铺满页面*/
+    width: 100%;
+
+    /*背景色：白色*/
+    background-color: white;
+
+    /*字体 14px*/
+    font-size: 14px;
+
+    /*设置下空白*/
+    padding-bottom: 12px;
+}
+
+/*设置 Header 内部 p 元素属性*/
+.HeaderTop p {
+
+    /*以行元素显示*/
+    display: inline;
+
+    /*右间距 20px*/
+    margin-right: 20px;
+}
+
+/*设置 Header 内部 整体属性*/
+.HeaderTop .NavBar {
+
+    /*更改其浮动模式，向右浮动*/
+    float: right;
+
+    /*高度与外部相等*/
+    height: 100%;
+
+    /*字体 15px*/
+    font-size: 15px;
+}
+
+/* 设置 导航栏链接属性*/
+.HeaderTop .NavBar a {
+
+    /*行内块*/
+    display: inline-block;
+
+    /*设置向右空白*/
+    padding-right: 10px;
+}
+
+/* 取消最后一个链接的 向右空白*/
+.HeaderTop .NavBar a:last-child {
+    padding-right: 0;
+}
+
+/* 设置链接点击后颜色*/
+.HeaderTop .NavBar a:hover {
+    color: #1974A1;
+}
+
+/* 设置 div 为行内块*/
+.HeaderTop .NavBar div {
+    display: inline-block;
+}
+
+/*设置用户中心属性*/
+.HeaderTop .NavBar .UserCenter {
+
+    /*设置字体大小*/
+    font-size: 16px;
+
+    /*设置颜色*/
+    color: #254694
+}
+
+/*设置老年模式样式*/
+.HeaderTop .NavBar .OlderMode {
+    /*设置行高*/
+    line-height: 25px;
+
+    /*背景颜色*/
+    background-color: #ec940a;
+
+    /*设置金色边框圆角*/
+    border-radius: 5px;
+
+    /*字体颜色*/
+    color: white;
+
+    /*设置字体大小*/
+    font-size: 15px;
+
+    /*设置左右大小*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*取消链接变色*/
+.HeaderTop .NavBar .OlderMode:hover {
+    color: white;
 }
