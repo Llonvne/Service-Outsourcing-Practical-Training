@@ -5,7 +5,7 @@ html {
 
 .Links {
     height: 168px;
-    background: url('../../../images/Tail_BG.png') center 0 no-repeat;
+    background: url('../../../images/Tail_BG.png') center 0;
     width: 100%;
 }
 

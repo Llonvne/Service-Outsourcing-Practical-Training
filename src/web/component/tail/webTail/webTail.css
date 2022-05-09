@@ -1,0 +1,15 @@
+html {
+    height: 125px;
+    width: 100%;
+}
+
+body {
+    height: 125px;
+    width: 100%;
+    border: medium none;
+}
+
+.WebTailWrapper {
+    height: 125px;
+    width: 100%;
+}
