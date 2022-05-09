@@ -4,23 +4,28 @@
 
 .HeaderDown * {
     float: left;
-    padding-top: 30px;
-    padding-left: 15px;
+    /*padding-left: 15px;*/
+    display: block;
+}
+
+.HeaderDown .Gov,.GovEvent,.WeChat {
+    padding-top: 50px;
+    padding-right: 35px;
 }
 
 .HeaderDown .Logo {
     padding-right: 30px;
-    padding-top: 0;
+    padding-top: 30px;
 }
 
 .HeaderDown .WeChat {
-    padding-left: 23px;
+    padding-left: 38px;
 }
 
 .HeaderDown .WeChat span {
     position: absolute;
-    left: 1050px;
-    top: 75px;
+    left: 1025px;
+    top: 90px;
 }
 
 
