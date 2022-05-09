@@ -4,18 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
-    <!--    Vue 导入-->
-    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-
-
+    <!--    导入 Wrapper 样式-->
+    <link rel="stylesheet" href="component/wrapper/wrapper.css">
 </head>
 <body>
+<!--Wrapper-->
+<div class="wrapper">
 
-<div id="app">
-    
+    <!--    HeaderWrapper-->
+    <div class="HeaderWrapper">
+
+        <!--        Header-->
+        <div class="Header">
+            <!--    导入HeaderTop-->
+            <div class="HeaderTop">
+                <iframe src="component/header/headerTop/headerTop.html"></iframe>
+            </div>
+            <!--    导入HeaderDown-->
+            <div class="HeaderDown">
+                <iframe src="component/header/headerDown/headerDown.html"></iframe>
+            </div>
+        </div>
+        <!--        Bar-->
+        <div class="Bar">
+            <!--    导入barTop-->
+            <div class="BarTop">
+                <iframe src="component/bar/barTop/barTop.html"></iframe>
+            </div>
+            <!--    导入barDown-->
+            <div class="BarDown">
+                <iframe src="component/bar/barDown/barDown.html"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--    ContentWrapper -->
+    <div class="ContentWrapper">
+
+    </div>
+
+    <!--    TailWrapper-->
+    <div class="TailWrapper">
+
+        <!--    导入 Linkes-->
+        <div class="Links">
+            <iframe src="component/tail/links/links.html"></iframe>
+        </div>
+
+        <!--导入WebTail-->
+        <div class="WebTail">
+            <iframe src="component/tail/webTail/webTail.html"></iframe>
+        </div>
+    </div>
 </div>
-
 </body>
 </html>
