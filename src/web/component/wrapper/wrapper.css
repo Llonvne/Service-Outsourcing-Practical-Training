@@ -5,5 +5,5 @@
 
 /*大图放置*/
 .wrapper {
-    background: url('../../images/Global_BG.png') no-repeat center 38px;
+    background: url('../../images/Global_BG.png') center 38px no-repeat;
 }

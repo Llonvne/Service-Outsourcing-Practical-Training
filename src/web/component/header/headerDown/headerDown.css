@@ -1,27 +1,27 @@
-.body {
-    height: 170px
-}
-
+/*让里面的链接向右浮动*/
 .HeaderDown * {
     float: left;
-    /*padding-left: 15px;*/
     display: block;
 }
 
-.HeaderDown .Gov,.GovEvent,.WeChat {
+/*政府 政务 Wechat 位置调整*/
+.HeaderDown .Gov, .GovEvent, .WeChat {
     padding-top: 50px;
     padding-right: 35px;
 }
 
+/*Logo 位置调整*/
 .HeaderDown .Logo {
     padding-right: 30px;
     padding-top: 30px;
 }
 
+/*微信位置调整*/
 .HeaderDown .WeChat {
     padding-left: 38px;
 }
 
+/*官方微信字使用绝对位置*/
 .HeaderDown .WeChat span {
     position: absolute;
     left: 1025px;

@@ -3,6 +3,13 @@
     height: 38px;
     border-bottom: 0;
 }
+
+/*设置导入 BarTop*/
+.wrapper .HeaderWrapper .Bar .BarTop {
+    height: 60px;
+    border-bottom: 0;
+}
+
 /*设置 iframe 样式*/
 iframe {
 
