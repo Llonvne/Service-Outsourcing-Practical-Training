@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 /*设置导入 HeaderTop*/
 .wrapper .HeaderWrapper .Header .HeaderTop {
     height: 38px;
@@ -13,15 +19,15 @@
 
 /*设置导入 Links*/
 .wrapper .TailWrapper .Links {
-    height: 176px;
+    height: 168px;
     border: 0;
     margin: 0;
     padding: 0;
 }
 
 .wrapper .TailWrapper .WebTail {
-    height: 140px;
-    background: #37694c 1408px;
+    height: 129px;
+    background: #37694c center;
     border: 0;
     margin: 0;
     padding: 0;

@@ -2,6 +2,11 @@
 html {
     height: 168px;
 }
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
 
 /*设置背景和高度*/
 .Links {
