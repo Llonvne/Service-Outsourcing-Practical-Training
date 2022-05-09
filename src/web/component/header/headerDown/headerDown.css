@@ -1,7 +1,26 @@
-.HeaderDown {
-    height: 160px;
-    width: 100%;
+.body {
+    height: 170px
 }
-.Logo {
-    padding-top:30px
+
+.HeaderDown * {
+    float: left;
+    padding-top: 30px;
+    padding-left: 15px;
 }
+
+.HeaderDown .Logo {
+    padding-right: 30px;
+    padding-top: 0;
+}
+
+.HeaderDown .WeChat {
+    padding-left: 23px;
+}
+
+.HeaderDown .WeChat span {
+    position: absolute;
+    left: 1050px;
+    top: 75px;
+}
+
+
