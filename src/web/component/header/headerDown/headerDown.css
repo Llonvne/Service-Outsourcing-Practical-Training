@@ -12,6 +12,7 @@
 
 /*Logo 位置调整*/
 .HeaderDown .Logo {
+    padding-left: 130px;
     padding-right: 30px;
     padding-top: 30px;
 }
@@ -24,8 +25,8 @@
 /*官方微信字使用绝对位置*/
 .HeaderDown .WeChat span {
     position: absolute;
-    left: 1025px;
-    top: 90px;
+    left: 1160px;
+    top: 92px;
 }
 
 

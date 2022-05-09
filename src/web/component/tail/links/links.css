@@ -1,0 +1,54 @@
+/*设置背景*/
+html {
+    height: 168px;
+}
+
+.Links {
+    height: 168px;
+    background: url('../../../images/Tail_BG.png') center 0 no-repeat;
+    width: 100%;
+}
+
+/*设置友情链接文字*/
+.Links .LinksWrapper p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.Links .LinksWrapper div {
+    height: 40px;
+    width: 180px;
+    display: inline-block;
+}
+
+.Links .LinksWrapper .Pic1 {
+    width: 250px;
+}
+
+.Links .LinksWrapper .Pic2 {
+    width: 250px;
+}
+
+.Links .LinksWrapper .Pic1 {
+    background: url("../../../images/Links_1.png") center no-repeat;
+}
+
+.Links .LinksWrapper .Pic2 {
+    background: url("../../../images/Links_2.png") center no-repeat;
+}
+
+.Links .LinksWrapper .Links1 {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: top;
+    color: #37694c;
+    background-color: white;
+}
+
+

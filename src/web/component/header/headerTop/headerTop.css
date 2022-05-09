@@ -93,8 +93,9 @@ html {
     /*设置金色边框圆角*/
     border-radius: 5px;
 
-    /*字体颜色*/
+    /*字体颜色加粗*/
     color: white;
+    font-weight: bolder;
 
     /*设置字体大小*/
     font-size: 15px;

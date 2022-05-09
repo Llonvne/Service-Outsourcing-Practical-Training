@@ -1,30 +1,49 @@
-/*设置背景图片*/
+/*设置高度*/
 html {
     height: 60px;
 }
-
+.BarTop .Nav a:first-child {
+    margin-left: 130px;
+}
+/*设置链接的属性*/
 .BarTop .Nav a {
+
+    /*行内块*/
     display: inline-block;
+
+    /*长宽*/
     width: 120px;
     height: 50px;
+
+    /*背景*/
     background: goldenrod url("../../../images/BarTop_Silver.png");
+
+    /*边框*/
     border: 0;
+
+    /*浮动*/
     float: left;
+
+    /*字体*/
     font-size: 20px;
+
+    /*水平竖向居中*/
     line-height: 50px;
     text-align: center;
 }
 
+/*设置鼠标在上面的变化效果*/
 .BarTop .Nav a:hover {
     background: goldenrod url("../../../images/BarTop_Golden.png");
 }
 
+/*设置搜索按钮*/
 .BarTop .Nav .Search {
     width: 50px;
     background: goldenrod url("../../../images/BarTop_Search.png");
 }
 
+/*取消变黄色效果*/
 .BarTop .Nav .Search:hover {
-    width: 55px;
     background: goldenrod url("../../../images/BarTop_Search.png");
 }
