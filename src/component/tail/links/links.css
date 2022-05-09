@@ -1,8 +1,9 @@
-/*设置背景*/
+/*设置高度*/
 html {
     height: 168px;
 }
 
+/*设置背景和高度*/
 .Links {
     height: 168px;
     background: url('../../../images/Tail_BG.png') center 0;
@@ -20,28 +21,26 @@ html {
     margin: 0;
 }
 
+/*设置下面图片和文字长度高度*/
 .Links .LinksWrapper div {
     height: 40px;
     width: 180px;
     display: inline-block;
 }
 
+/*设置图片高度*/
 .Links .LinksWrapper .Pic1 {
     width: 250px;
-}
-
-.Links .LinksWrapper .Pic2 {
-    width: 250px;
-}
-
-.Links .LinksWrapper .Pic1 {
     background: url("../../../images/Links_1.png") center no-repeat;
 }
 
+/*设置图片高度*/
 .Links .LinksWrapper .Pic2 {
+    width: 250px;
     background: url("../../../images/Links_2.png") center no-repeat;
 }
 
+/*设置链接文字属性*/
 .Links .LinksWrapper .Links1 {
     display: inline-block;
     line-height: 40px;

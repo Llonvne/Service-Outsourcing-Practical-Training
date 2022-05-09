@@ -1,15 +1,57 @@
 html {
-    height: 125px;
+    height: 129px;
     width: 100%;
 }
 
 body {
-    height: 125px;
+    height: 129px;
     width: 100%;
     border: medium none;
 }
+.Left {
+    display: inline-block;
+}
+.Right {
+    display: inline-block;
+}
 
 .WebTailWrapper {
-    height: 125px;
+    height: 129px;
     width: 100%;
 }
+
+.Left div {
+    padding-bottom: 20px;
+}
+
+.Left .Layer1 a {
+    display: inline-block;
+    border-right: 1px solid #f7f7f7;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Left .Layer1 a:last-child {
+    border-right: none;
+}
+
+.Left div a {
+    color: #f7f7f7;
+    font-size: 15px;
+}
+
+.Left div span {
+    color: #f7f7f7;
+    font-size: 15px;
+}
+.Right {
+    /*background-color: #ec940a;*/
+}
+.Right .Pic1 {
+    margin-top: 0;
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+/*1px solid #f7f7f7*/
