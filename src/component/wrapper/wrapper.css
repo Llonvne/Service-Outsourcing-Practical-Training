@@ -1,6 +1,5 @@
 .LinksWrapper {
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width:1200px;margin:0 auto
 }
 
 .HeaderTop {
@@ -9,16 +8,14 @@
 }
 
 .ContentWrapper {
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width:1200px;margin:0 auto
 }
 
 /*大图放置*/
 .wrapper {
-    background: url('../../images/Global_BG.png') center 38px no-repeat;
+    background: url('../../images/Global_BG.png') center 38px repeat-x;
 }
 
 .WebTailWrapper {
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width:1200px;margin:0 auto
 }
