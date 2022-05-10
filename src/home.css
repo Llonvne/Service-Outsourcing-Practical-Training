@@ -14,16 +14,17 @@
 
 /*头条上层左边 设置*/
 .wrapper .ContentWrapper .Headlines1 .HeadlinesTop .Left {
-    width: 130px;
+    width: 10%;
     height: 100%;
     background-color: palegoldenrod;
     display: inline-block;
     vertical-align: top;
+    margin-left: 5%;
 }
 
 /*头条上层右边标题设置*/
 .wrapper .ContentWrapper .Headlines1 .HeadlinesTop .Right {
-    width: 840px;
+    width: 84%;
     height: 100%;
     background-color: palegreen;
     display: inline-block;
@@ -42,19 +43,18 @@
 }
 
 /*设置下面三连新闻字体参数*/
+.wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info:first-child {
+    margin-left: 11%;
+}
+
 .wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info {
     height: 31px;
-    width: 243px;
+    width: 25%;
     background-color: aliceblue;
     display: inline-block;
     margin-right: 20px;
     text-align: center;
     line-height: 31px;
-}
-
-/*左边第一个边界*/
-.wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info:first-child {
-    margin-left: 100px;
 }
 
 /*新闻1*/
@@ -67,25 +67,27 @@
 
 /* 左边图片*/
 .wrapper .ContentWrapper .New1 .New1Left {
-    width: 487px;
+    width: 50%;
     height: 370px;
     background-color: papayawhip;
     display: inline-block;
     vertical-align: top;
+    float: left;
 }
 
 /*右边栏*/
 .wrapper .ContentWrapper .New1 .New1Right {
-    width: 487px;
+    width: 50%;
     height: 370px;
     background-color: peru;
     display: inline-block;
     vertical-align: top;
+    float: left;
 }
 
 /*右边标题栏*/
 .wrapper .ContentWrapper .New1 .New1Right .New1RightHeadlines a {
-    width: 92px;
+    width: 20%;
     height: 50px;
     display: inline-block;
     background-color: pink;
@@ -93,24 +95,98 @@
     line-height: 50px;
     font-size: 18px;
     border-bottom: solid #37694c 3px;
+    float: left;
 }
 
+/*新闻栏高度*/
 .wrapper .ContentWrapper .New1 .New1Right .New1RightList .New {
     height: 34px;
+    width: 100%;
     background-color: peachpuff;
 }
 
+/*新闻文本*/
 .wrapper .ContentWrapper .New1 .New1Right .New1RightList .New .Text {
     height: 100%;
     width: 80%;
     background-color: floralwhite;
     display: inline-block;
     vertical-align: top;
+    float: left;
 }
+
+/*新闻时间*/
 .wrapper .ContentWrapper .New1 .New1Right .New1RightList .New .Date {
     height: 100%;
-    width: 18%;
+    width: 20%;
     background-color: darkgreen;
     display: inline-block;
     vertical-align: top;
+    float: left;
+}
+
+.wrapper .ContentWrapper .New2 {
+    height: 300px;
+    background-color: fuchsia;
+    z-index: -1;
+}
+
+.wrapper .ContentWrapper .New2 .Left {
+    height: 100%;
+    width: 25%;
+    background-color: #ec940a;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.wrapper .ContentWrapper .New2 .Left .Head {
+    height: 50px;
+    background-color: bisque;
+    font-size: 15px;
+}
+
+.wrapper .ContentWrapper .New2 .Left .Pics {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper .ContentWrapper .New2 .Left .Pics > div {
+    display: inline-block;
+    height: 125px;
+    width: 50%;
+    background-color: #1974A1;
+    float: left
+}
+
+.wrapper .ContentWrapper .New2 .Left .Pics .Text {
+    display: block;
+    height: 15px;
+    width: 100%;
+    background-color: sandybrown;
+}
+
+.wrapper .ContentWrapper .New2 .Left .Pics .Pic {
+    display: block;
+    height: 110px;
+    width: 100%;
+    background-color: silver;
+}
+
+.wrapper .ContentWrapper .New2 .Middle {
+    height: 100%;
+    width: 55%;
+    /*background-color: #37694c;*/
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.wrapper .ContentWrapper .New2 .Right {
+    height: 100%;
+    width: 20%;
+    background-color: #f7f7f7;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
 }
