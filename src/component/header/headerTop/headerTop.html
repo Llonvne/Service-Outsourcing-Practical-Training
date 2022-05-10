@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="../../../global.css">
 
 </head>
-<body>
+<body onload="time()">
 <div class="HeaderTop">
 
     <!--    HeaderTop 左边不可点击元素-->
     <p>欢迎访问浙江省粮食和物资储备局</p>
-    <p>今天是：2022年5月9日</p>
-    <p>星期一</p>
+    <span>今天是：</span> <span id="showtime"></span>
 
     <!--    HeaderTop 右边可点击元素-->
     <div class="NavBar">
@@ -32,4 +31,13 @@
     </div>
 </div>
 </body>
+<script>
+    /* 时间 */
+    function time() {
+        t_div = document.getElementById('showtime');
+        var now = new Date()
+        t_div.innerHTML = now.getFullYear() + "/" + (now.getMonth() + 1) + "/" + now.getDate() + "/" + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds() + "";
+        setTimeout(time, 1000);
+    }
+</script>
 </html>
