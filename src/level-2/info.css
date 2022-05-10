@@ -189,4 +189,6 @@
 .wrapper .ContentWrapper .InsideWrapper .Right .Down .Info .Date {
     line-height: 50px;
     display: inline-block;
+    text-align: right;
+    float: right;
 }
