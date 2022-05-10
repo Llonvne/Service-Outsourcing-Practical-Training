@@ -212,9 +212,46 @@
 
 .wrapper .ContentWrapper .New2 .Right {
     height: 100%;
-    width: 10%;
+    width: 20%;
     background-color: #f7f7f7;
     display: inline-block;
     vertical-align: top;
     float: left;
+}
+
+.wrapper .ContentWrapper .New2 .Right .Upper > div {
+    width: 50%;
+    height: 110px;
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    /*margin-right: 10px;*/
+    background-color: pink;
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+}
+
+.wrapper .ContentWrapper .New2 .Right .Down {
+    width: 188px;
+    height: 170px;
+    background-color: #37694c;
+    display: inline-block;
+    margin: 6px 6px 6px 25px;
+}
+
+.wrapper .ContentWrapper .DSXX {
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: navajowhite;
+    vertical-align: top;
+}
+.wrapper .ContentWrapper .LBLW {
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: navajowhite;
+    margin-bottom: 30px;
+    vertical-align: top;
+
 }
