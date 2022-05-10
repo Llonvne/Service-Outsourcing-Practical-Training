@@ -176,7 +176,7 @@
 .wrapper .ContentWrapper .New2 .Middle {
     height: 100%;
     width: 55%;
-    /*background-color: #37694c;*/
+    background-color: #37694c;
     display: inline-block;
     vertical-align: top;
     float: left;
@@ -191,6 +191,22 @@
     line-height: 50px;
     font-size: 18px;
     border-bottom: solid #37694c 3px;
+    float: left;
+}
+
+.wrapper .ContentWrapper .New2 .Middle .New2MiddleInfos .New {
+    height: 35px;
+    width: 100%;
+    background-color: peachpuff;
+}
+
+.wrapper .ContentWrapper .New2 .Middle .New2MiddleInfos .New .Text {
+    height: 35px;
+    width: 80%;
+    background-color: deeppink;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: top;
     float: left;
 }
 
