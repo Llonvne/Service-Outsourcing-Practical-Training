@@ -20,7 +20,7 @@
     display: inline-block;
     vertical-align: top;
     margin-left: 5%;
-    background: url("images/home-1.png");
+    background: url("images/home-1.png") no-repeat;
 }
 
 /*头条上层右边标题设置*/
@@ -309,6 +309,9 @@
 
 .wrapper .ContentWrapper .New2 .Right .Upper .Left .Pic .Text {
     text-indent: -10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .wrapper .ContentWrapper .New2 .Right .Down .DownUpper .Pic {
@@ -319,7 +322,7 @@
     margin-top: 20px;
     width: 100%;
     height: 100px;
-    background-color: navajowhite;
+    /*background-color: navajowhite;*/
     vertical-align: top;
 }
 
@@ -327,7 +330,7 @@
     margin-top: 20px;
     width: 100%;
     height: 100px;
-    background-color: navajowhite;
+    /*background-color: navajowhite;*/
     margin-bottom: 30px;
     vertical-align: top;
 }
