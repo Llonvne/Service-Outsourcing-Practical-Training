@@ -1,3 +1,18 @@
+.wrapper .ContentWrapper .Left {
+    width: 750px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wrapper .ContentWrapper .Right {
+    width: 360px;
+    height: 1000px;
+    /*background-color: pink;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
 .wrapper .ContentWrapper .Left .Head {
     width: 750px;
     height: 40px;
@@ -6,7 +21,7 @@
     margin-top: 50px;
 }
 
-.wrapper .ContentWrapper .Head .More {
+.wrapper .ContentWrapper .Left .Head .More {
     color: white;
     width: 136px;
     line-height: 40px;
@@ -36,6 +51,7 @@
     display: inline-block;
     vertical-align: top;
 }
+
 .wrapper .ContentWrapper .Left .Col > .Date {
     width: 100px;
     height: 32px;
@@ -46,4 +62,59 @@
     text-align: right;
     color: #999999;
     font-size: 14px;
+}
+
+.wrapper .ContentWrapper .Right .Head {
+    height: 40px;
+    width: 360px;
+    color: darkgray;
+    border: 1px #999999 solid;
+    background-color: #FBFBFB;
+}
+
+.wrapper .ContentWrapper .Right .Head .More {
+    color: #37694c;
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+    text-indent: 20px;
+    border-left: #37694c 3px solid;
+}
+
+.wrapper .ContentWrapper .Right .BusinessNotify {
+    border: 1px #999999 solid;
+    margin-top: 50px;
+    background-color: #FBFBFB;
+}
+
+.wrapper .ContentWrapper .Right .NewNation {
+    border: 1px #999999 solid;
+    background-color: #FBFBFB;
+    margin-top: 50px;
+}
+
+.wrapper .ContentWrapper .Right .Col {
+    width: 323px;
+    height: 56px;
+    /*background-color: #1974A1;*/
+}
+
+.wrapper .ContentWrapper .Right .Col .Text {
+    height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 23px;
+    text-indent: 10px;
+    text-align: left;
+}
+
+.wrapper .ContentWrapper .Right .Col .Date {
+    height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 23px;
+    text-indent: 10px;
+    text-align: left;
 }
