@@ -1,0 +1,49 @@
+.wrapper .ContentWrapper .Left .Head {
+    width: 750px;
+    height: 40px;
+    background-color: #f2f6fa;
+    border: solid 1px #ddd;
+    margin-top: 50px;
+}
+
+.wrapper .ContentWrapper .Head .More {
+    color: white;
+    width: 136px;
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: #37694c;
+    text-align: center;
+}
+
+.wrapper .ContentWrapper .Left .Col {
+    width: 750px;
+    height: 32px;
+    /*background-color: pink;*/
+    margin-top: 5px;
+}
+
+.wrapper .ContentWrapper .Left .Col .Text {
+    width: 600px;
+    height: 32px;
+    line-height: 32px;
+    color: #333333;
+    font-size: 15px;
+    /*background-color: darkkhaki;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+}
+.wrapper .ContentWrapper .Left .Col > .Date {
+    width: 100px;
+    height: 32px;
+    /*background-color: #ec940a;*/
+    display: inline-block;
+    vertical-align: top;
+    line-height: 32px;
+    text-align: right;
+    color: #999999;
+    font-size: 14px;
+}

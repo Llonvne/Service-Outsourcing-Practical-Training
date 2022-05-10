@@ -1,0 +1,96 @@
+.wrapper .ContentWrapper .Top {
+    margin-top: 45px;
+    height: 400px;
+    /*background-color: #37694c;*/
+}
+
+.wrapper .ContentWrapper .Down {
+    /*background-color: #1974A1;*/
+    height: 400px;
+}
+
+.wrapper .ContentWrapper .Top .Left {
+    width: 50%;
+    /*background-color: pink;*/
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    height: 400px;
+}
+
+.wrapper .ContentWrapper .Top .Right {
+    width: 50%;
+    /*background-color: darkkhaki;*/
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    height: 400px;
+}
+.wrapper .ContentWrapper .Down .Left {
+    width: 50%;
+    /*background-color: pink;*/
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    height: 400px;
+}
+
+.wrapper .ContentWrapper .Down .Right {
+    width: 50%;
+    /*background-color: darkkhaki;*/
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    height: 400px;
+}
+
+.wrapper .ContentWrapper .Head {
+    height: 50px;
+    border-bottom: #37694c 3px solid;
+    font-size: 25px;
+    line-height: 50px;
+    text-indent: 15px;
+    border-left: #37694c 5px solid;
+}
+
+.wrapper .ContentWrapper .ListWrapper .Col {
+    height: 55px;
+    /*background-color: #1974A1;*/
+}
+
+.wrapper .ContentWrapper .ListWrapper .Col .Text {
+    width: 70%;
+    line-height: 55px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    border-bottom: #cccccc dotted 1px;
+}
+
+.wrapper .ContentWrapper .ListWrapper .Col .Date {
+    width: 20%;
+    line-height: 55px;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    border-bottom: #cccccc dotted 1px;
+}
+
+.wrapper .ContentWrapper .PolicyWrapper {
+    border-bottom: 3px #cccccc solid;
+}
+
+.wrapper .ContentWrapper .SafeWrapper {
+    border-bottom: 3px #cccccc solid;
+}
+
+.wrapper .ContentWrapper .TongjiWrapper {
+    border-bottom: 3px #cccccc solid;
+}
+.wrapper .ContentWrapper .DynamicWrapper{
+    border-bottom: 3px #cccccc solid;
+}
