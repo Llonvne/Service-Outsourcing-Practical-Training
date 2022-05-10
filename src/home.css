@@ -45,7 +45,7 @@
 
 /*设置下面三连新闻字体参数*/
 .wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info:first-child {
-    /*margin-left: 11%;*/
+    margin-left: 8%;
 }
 
 .wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info {
