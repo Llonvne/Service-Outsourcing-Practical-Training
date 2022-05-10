@@ -1,3 +1,7 @@
+.wrapper .ContentWrapper {
+    height: 1500px;
+}
+
 .wrapper .ContentWrapper .Left {
     width: 750px;
     display: inline-block;
@@ -6,11 +10,11 @@
 
 .wrapper .ContentWrapper .Right {
     width: 360px;
-    height: 1000px;
+    height: 1200px;
     /*background-color: pink;*/
     display: inline-block;
     vertical-align: top;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .wrapper .ContentWrapper .Left .Head {
@@ -93,6 +97,10 @@
     margin-top: 50px;
 }
 
+.wrapper .ContentWrapper .Right .Col:first-child {
+    margin-top: 20px;
+}
+
 .wrapper .ContentWrapper .Right .Col {
     width: 323px;
     height: 56px;
@@ -117,4 +125,9 @@
     line-height: 23px;
     text-indent: 10px;
     text-align: left;
+    color: #999999;
+}
+
+.GH {
+    margin-left: 50px;
 }
