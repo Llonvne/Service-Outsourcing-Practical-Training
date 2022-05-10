@@ -182,6 +182,18 @@
     float: left;
 }
 
+.wrapper .ContentWrapper .New2 .Middle .New2MiddleHeadlines a {
+    width: 20%;
+    height: 50px;
+    display: inline-block;
+    background-color: darkgray;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    border-bottom: solid #37694c 3px;
+    float: left;
+}
+
 .wrapper .ContentWrapper .New2 .Right {
     height: 100%;
     width: 20%;
