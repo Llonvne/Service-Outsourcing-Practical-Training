@@ -1,0 +1,103 @@
+/*
+ * MIT License
+ *
+ * Copyright (c) 2022 L.H.S.L
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+.wrapper .ContentWrapper .Level1 {
+    margin-top: 60px;
+    height: 350px;
+    /*background-color: #37694c;*/
+}
+
+.wrapper .ContentWrapper .Level2 {
+    margin-top: 30px;
+    height: 350px;
+    /*background-color: #37694c;*/
+}
+
+.wrapper .ContentWrapper .Left {
+    width: 334px;
+    background-color: #eee;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wrapper .ContentWrapper .Right {
+    width: 840px;
+    /*background-color: #eee;*/
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wrapper .ContentWrapper .Left .Header {
+    padding: 30px;
+}
+
+.wrapper .ContentWrapper .Left .ChoseWrapper > div {
+    width: 200px;
+    height: 40px;
+    background-color: #37694c;
+    margin-left: 67px;
+    margin-bottom: 5px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.wrapper .ContentWrapper .Left .ChoseWrapper > div:hover {
+    background-color: #ec940a;
+    color: #f7f7f7;
+}
+
+.wrapper .ContentWrapper .Right .Header {
+    height: 50px;
+    width: 100%;
+    /*background-color: #999999;*/
+    vertical-align: top;
+    border-bottom: 2px #999999 solid;
+}
+
+.wrapper .ContentWrapper .Right .Header .Text {
+    color: #ec940a;
+    line-height: 50px;
+    text-indent: 50px;
+}
+.wrapper .ContentWrapper .Info {
+    padding-top: 10px;
+    width: 100%;
+    height: 44px;
+}
+.wrapper .ContentWrapper .Info .Text {
+    line-height: 44px;
+    display: inline-block;
+}
+.wrapper .ContentWrapper .Info .Date {
+    line-height: 44px;
+    color: #999999;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+
