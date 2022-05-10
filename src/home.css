@@ -1,14 +1,14 @@
 /*头条CSS*/
 /*头条高度设置*/
 .wrapper .ContentWrapper .Headlines1 {
-    height: 120px;
-    background-color: #ec940a;
+    height: 100px;
+    /*background-color: #ec940a;*/
 }
 
 /*头条上层高度设置，边框设置*/
 .wrapper .ContentWrapper .Headlines1 .HeadlinesTop {
     height: 45px;
-    background-color: pink;
+    /*background-color: pink;*/
     margin-top: 15px
 }
 
@@ -16,17 +16,18 @@
 .wrapper .ContentWrapper .Headlines1 .HeadlinesTop .Left {
     width: 10%;
     height: 100%;
-    background-color: palegoldenrod;
+    /*background-color: palegoldenrod;*/
     display: inline-block;
     vertical-align: top;
     margin-left: 5%;
+    background: url("images/home-1.png");
 }
 
 /*头条上层右边标题设置*/
 .wrapper .ContentWrapper .Headlines1 .HeadlinesTop .Right {
     width: 84%;
     height: 100%;
-    background-color: palegreen;
+    /*background-color: palegreen;*/
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -39,7 +40,7 @@
 .wrapper .ContentWrapper .Headlines1 .HeadlinesDown {
     height: 31px;
     width: 100%;
-    background-color: paleturquoise;
+    /*background-color: paleturquoise;*/
 }
 
 /*设置下面三连新闻字体参数*/
@@ -50,17 +51,21 @@
 .wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info {
     height: 31px;
     width: 25%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     display: inline-block;
     margin-right: 20px;
     text-align: center;
     line-height: 31px;
+    /*background: url("/images/Home_Point.png") center no-repeat;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /*新闻1*/
 .wrapper .ContentWrapper .New1 {
     height: 370px;
-    background-color: palevioletred;
+    /*background-color: palevioletred;*/
     padding-left: 0;
     padding-right: 0;
 }
@@ -69,17 +74,18 @@
 .wrapper .ContentWrapper .New1 .New1Left {
     width: 50%;
     height: 370px;
-    background-color: papayawhip;
+    /*background-color: papayawhip;*/
     display: inline-block;
     vertical-align: top;
     float: left;
+    z-index: 2;
 }
 
 /*右边栏*/
 .wrapper .ContentWrapper .New1 .New1Right {
     width: 50%;
     height: 370px;
-    background-color: peru;
+    /*background-color: peru;*/
     display: inline-block;
     vertical-align: top;
     float: left;
@@ -90,7 +96,7 @@
     width: 20%;
     height: 50px;
     display: inline-block;
-    background-color: pink;
+    /*background-color: pink;*/
     text-align: center;
     line-height: 50px;
     font-size: 18px;
@@ -98,52 +104,78 @@
     float: left;
 }
 
+/*右边标题栏*/
+.wrapper .ContentWrapper .New1 .New1Right .New1RightHeadlines a:hover {
+    color: #ec940a;
+    border-bottom: solid #ec940a 3px;
+}
+
 /*新闻栏高度*/
 .wrapper .ContentWrapper .New1 .New1Right .New1RightList .New {
     height: 34px;
     width: 100%;
-    background-color: peachpuff;
+    /*background-color: peachpuff;*/
 }
 
 /*新闻文本*/
 .wrapper .ContentWrapper .New1 .New1Right .New1RightList .New .Text {
     height: 100%;
     width: 90%;
-    background-color: floralwhite;
+    /*background-color: floralwhite;*/
     display: inline-block;
     vertical-align: top;
     float: left;
+    line-height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /*新闻时间*/
 .wrapper .ContentWrapper .New1 .New1Right .New1RightList .New .Date {
     height: 100%;
     width: 10%;
-    background-color: darkgreen;
+    /*background-color: darkgreen;*/
     display: inline-block;
     vertical-align: top;
     float: left;
 }
 
 .wrapper .ContentWrapper .New2 {
+    margin-top: 30px;
     height: 300px;
-    background-color: fuchsia;
+    /*background-color: fuchsia;*/
     z-index: -1;
 }
 
 .wrapper .ContentWrapper .New2 .Left {
     height: 100%;
     width: 25%;
-    background-color: #ec940a;
+    /*background-color: #ec940a;*/
     display: inline-block;
     vertical-align: top;
     float: left;
 }
 
-.wrapper .ContentWrapper .New2 .Left .Head {
+.wrapper .ContentWrapper .New2 .Left .Head a {
+    /*height: 50px;*/
+    /*background-color: bisque;*/
+    /*font-size: 15px;*/
+    width: 100%;
     height: 50px;
-    background-color: bisque;
-    font-size: 15px;
+    display: inline-block;
+    color: #37694c;
+    /*background-color: pink;*/
+    text-align: left;
+    line-height: 50px;
+    font-size: 18px;
+    border-bottom: solid #37694c 3px;
+    float: left;
+}
+
+.wrapper .ContentWrapper .New2 .Left .Head a:hover {
+    color: #ec940a;
+    border-bottom: solid #ec940a 3px;
 }
 
 .wrapper .ContentWrapper .New2 .Left .Pics {
@@ -155,7 +187,8 @@
     display: inline-block;
     height: 125px;
     width: 50%;
-    background-color: #1974A1;
+    /*background: url("/images/home-7.png") center no-repeat;*/
+    /*background-color: #1974A1;*/
     float: left
 }
 
@@ -164,6 +197,10 @@
     height: 15px;
     width: 100%;
     background-color: sandybrown;
+}
+
+.wrapper .ContentWrapper .New2 .Left .Pics .picWithText .Pic {
+
 }
 
 .wrapper .ContentWrapper .New2 .Left .Pics .Pic {
@@ -246,6 +283,7 @@
     background-color: navajowhite;
     vertical-align: top;
 }
+
 .wrapper .ContentWrapper .LBLW {
     margin-top: 30px;
     width: 100%;
@@ -253,5 +291,4 @@
     background-color: navajowhite;
     margin-bottom: 30px;
     vertical-align: top;
-
 }
