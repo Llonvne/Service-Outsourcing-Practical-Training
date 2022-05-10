@@ -299,6 +299,22 @@
     margin: 6px 6px 6px 25px;
 }
 
+.wrapper .ContentWrapper .New2 .Right .Upper div .Pic {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.wrapper .ContentWrapper .New2 .Right .Upper .Left .Pic:first-child {
+    margin-left: 40px;
+}
+
+.wrapper .ContentWrapper .New2 .Right .Upper .Left .Pic .Text {
+    text-indent: -10px;
+}
+
+.wrapper .ContentWrapper .New2 .Right .Down .DownUpper .Pic {
+    margin-left: 10px;
+}
+
 .wrapper .ContentWrapper .DSXX {
     margin-top: 20px;
     width: 100%;
