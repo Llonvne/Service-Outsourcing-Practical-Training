@@ -1,6 +1,5 @@
 .LinksWrapper {
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width:1200px;margin:0 auto
 }
 
 .HeaderTop {
@@ -9,8 +8,7 @@
 }
 
 .ContentWrapper {
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width:1200px;margin:0 auto
 }
 
 /*大图放置*/
@@ -19,6 +17,5 @@
 }
 
 .WebTailWrapper {
-    padding-left: 130px;
-    padding-right: 130px;
+    max-width:1200px;margin:0 auto
 }

@@ -19,7 +19,7 @@
     /*background-color: palegoldenrod;*/
     display: inline-block;
     vertical-align: top;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
     background: url("images/home-1.png") no-repeat;
 }
 
@@ -45,7 +45,7 @@
 
 /*设置下面三连新闻字体参数*/
 .wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info:first-child {
-    margin-left: 11%;
+    /*margin-left: 11%;*/
 }
 
 .wrapper .ContentWrapper .Headlines1 .HeadlinesDown .Info {
@@ -140,6 +140,10 @@
     vertical-align: top;
     float: left;
     color: #999999;
+    line-height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .wrapper .ContentWrapper .New2 {

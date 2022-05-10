@@ -2,10 +2,12 @@
 html {
     height: 60px;
 }
-
+.BarTop {
+    max-width:1200px;margin:0 auto
+}
 /*第一个链接设置左边距*/
 .BarTop .Nav a:first-child {
-    margin-left: 20%;
+    margin-left: 2%;
 }
 
 /*设置链接的属性*/
