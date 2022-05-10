@@ -5,7 +5,7 @@ html {
 
 /*第一个链接设置左边距*/
 .BarTop .Nav a:first-child {
-    margin-left: 20%;
+    margin-left: 130px;
 }
 
 /*设置链接的属性*/

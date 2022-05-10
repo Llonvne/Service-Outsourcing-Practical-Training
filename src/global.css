@@ -7,9 +7,6 @@
 
     size: 14px;
 
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 /*设置全局链接样式*/
