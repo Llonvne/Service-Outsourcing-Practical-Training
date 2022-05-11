@@ -102,11 +102,11 @@ lib.properties = {
 	id: '5B87257CEFB7C4419579E83C16F1BADD',
 	width: 500,
 	height: 400,
-	fps: 15,
+	fps: 10,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/新闻滚动_atlas_1.png?1652280588488", id:"新闻滚动_atlas_1"}
+		{src:"images/新闻滚动_atlas_1.png?1652281014162", id:"新闻滚动_atlas_1"}
 	],
 	preloads: []
 };
