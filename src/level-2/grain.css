@@ -114,3 +114,7 @@
 .wrapper .ContentWrapper .Right .Info .Date {
     color: #cccccc;
 }
+
+.Grains {
+    max-width: 250px;
+}
