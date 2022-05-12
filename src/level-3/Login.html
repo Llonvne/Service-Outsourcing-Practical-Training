@@ -1,0 +1,97 @@
+<!--/*-->
+<!--MIT License-->
+
+<!--Copyright (c) 2022 L.H.S.L-->
+<!--*/-->
+<!DOCTYPE html>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2022 L.H.S.L
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--    导入 Wrapper 样式-->
+    <link rel="stylesheet" href="../component/wrapper/wrapper.css">
+    <!--    导入全局CSS-->
+    <link rel="stylesheet" href="../global.css">
+    <!--    Full Web CSS-->
+    <link rel="stylesheet" href="../full_web.css">
+    <!--导入三级页面样式-->
+    <link rel="stylesheet" href="level3.css">
+    <!--    Login CSS-->
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="HeaderWrapper">
+
+        <!--        Header-->
+        <div class="Header">
+            <!--    导入HeaderTop-->
+            <div class="HeaderTop">
+                <iframe src="../component/header/headerTop/headerTop.html"></iframe>
+            </div>
+            <!--    导入HeaderDown-->
+            <div class="HeaderDown">
+                <iframe src="../component/header/headerDown/headerDown.html"></iframe>
+            </div>
+        </div>
+        <!--        Bar-->
+        <div class="Bar">
+            <!--    导入barTop-->
+            <div class="BarTop">
+                <iframe src="../component/bar/barTop/barTop.html"></iframe>
+            </div>
+            <!--    导入barDown-->
+            <div class="BarDown">
+                <iframe src="../component/bar/barDown/barDown.html"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="ContentWraper">
+        <form action="" class="LoginFrom">
+            用户名:
+            <input type="text" name="firstname" value="请输入账号">
+            密码:
+            <input type="text" name="lastname" value="请输入密码">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="TailWrapper">
+
+        <!--    导入 Linkes-->
+        <div class="Links">
+            <iframe src="../component/tail/links/links.html"></iframe>
+        </div>
+
+        <!--导入WebTail-->
+        <div class="WebTail">
+            <iframe src="../component/tail/webTail/webTail.html"></iframe>
+        </div>
+    </div>
+</div>
+</body>
+</html>
