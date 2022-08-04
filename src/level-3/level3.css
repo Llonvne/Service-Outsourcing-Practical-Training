@@ -21,7 +21,7 @@ img {
 }
 
 .line {
-    padding: 0 20px 0;
+    padding: 0 20px;
     line-height: 1px;
     border-left: 200px solid #ddd;
     border-right: 200px solid #ddd;
